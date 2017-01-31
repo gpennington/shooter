@@ -1,1 +1,0 @@
-﻿package src.shooter {		import flash.display.MovieClip;	import src.shooter.ShooterGame;		public class Main extends MovieClip {						public function Main() {						trace("main");						var game:ShooterGame = new ShooterGame();			addChild(game);					}	}	}
